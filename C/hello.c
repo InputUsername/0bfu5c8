@@ -4,7 +4,7 @@
 int
 #define OxB 0xB
 putchar(int_0O0O0O0O0OOO000______OOOOooOO0_
-);void W(int* s, int* t);main(int __,char**
+);void W(int *s,int*t);main(int __,char * *
 ____){int O00=0xF&02,x[]={P(5)^31,(P(0x3)>>
 4)|(P(0)+9),P(10)+(0b1010 << ~F(11,12))|1 ,
 108,111,(__LINE__-2)<<(F(O00,00)^O00),P(87)

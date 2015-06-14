@@ -26,4 +26,3 @@ if(*
 !=0)putchar(*(t
 +11-d));if (s==t)
 return;W(s-1,t);}
-return;W(s-1,t);}

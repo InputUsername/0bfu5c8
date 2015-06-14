@@ -1,18 +1,18 @@
 #define F(a,b) ((a)+(b),0)
-#define OxB 0xB
-#define P(D) 0127
 int
 putchar
 (int
 _0O0O0O0O0OOO000______OOOOooOO0_
 );void W(int* s, int* t);main
+#define OxB 0xB
 (int __,char**____
+#define P(D) 0127
 ){int x
 [
 ]=
 {
 P(5)^31,(P(0x3)>>4)|(P(0)+9),
-108,108,111,32,P(87),/*
+P(10)+(0b1010 << ~F(11,12))|1,108,111,32,P(87),/*
 3534,92,100,**argv,*/
 111,114,108,100
 ,P(87)/2-10},*p=x,

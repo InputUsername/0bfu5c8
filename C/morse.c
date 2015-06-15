@@ -17,6 +17,12 @@ int dec(int* from, int size, int* to);
 
 int conv(int*from,int*to,char*action,int size);
 
+inline int fnd(int c){
+    int x=0;
+    for(;x<36;++x)
+        if(A[x]==c)return x;
+    return -1;
+}
 inline int islower(int a){return a>=97&&a<=122;}
 
 char m[][5] ={
@@ -40,19 +46,20 @@ char m[][5] ={
   DIT DIT DIT DAH DAH, DIT DIT
 
 
-DIT DIT DAH,
-
 DIT
-
+DIT DAH,
 DIT DIT DIT
+DIT DAH,DIT DIT
+DIT DIT DIT,DAH DIT
+DIT DIT DIT,DAH
+DAH DIT DIT
+DIT,DAH
+DAH
 
-DAH,
-
-DIT DIT DIT DIT DIT,
-
-DAH DIT DIT DIT DIT, DAH DAH DIT DIT DIT, DAH DAH DAH DIT DIT,
-
-DAH DAH DAH DAH DIT
+DAH DIT
+DIT,DAH
+DAH DAH
+DAH DIT
 };
 
 int main(int c, char** v)
@@ -107,7 +114,8 @@ int enc(int* from, int size, int* to)
     int i=((int)from)&0;
     for(;i<size;++i)
     {
-
+        int c=fnd(*from);
+        putchar(c);
     }
     return 0;
 }

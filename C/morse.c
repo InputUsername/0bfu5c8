@@ -20,8 +20,8 @@ int conv(int*from,int*to,char*action,int size);
 inline int islower(int a){return a>=97&&a<=122;}
 
 char m[][5] ={
-			DIT DAH,
-	DAH DIT DIT DIT, DAH DIT
+            DIT DAH,
+    DAH DIT DIT DIT, DAH DIT
    DAH DIT, DAH DIT DIT, DIT,
   DIT DIT DAH DIT, DAH DAH DIT,
   DIT DIT DIT DIT, DIT DIT, DIT
@@ -31,7 +31,7 @@ char m[][5] ={
   DAH DAH DIT DAH, DIT DAH DIT,
     DIT DIT DIT, DAH, DIT DIT
       DAH, DIT DIT DIT DAH,
-	        DIT DAH
+            DIT DAH
 
   DAH,DAH DIT DIT DAH, DAH DIT
   DAH DAH,DAH DAH DIT DIT, DAH
@@ -117,4 +117,3 @@ int dec(int* from, int size, int* to)
 
     return 0;
 }
-

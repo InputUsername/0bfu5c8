@@ -1,7 +1,7 @@
 local function run(code)local _,count=string.gsub(code,"[()]","%0")if
 count%2~=0 then print("Error: unmatched parentheses")error()end local
 stack={}local function check_empty()if#stack==0 then print("Error:"..
-"empty stack")error()end end	local function push(value)stack[#stack+
+"empty stack")error()end end local function push(value)stack[#stack+
 1]=value end local function pop()check_empty()local val=stack[#stack]
 stack[#stack]=nil return val end local ip=1 local n=0 while ip<=#code
 do local c=string.sub(code,ip,ip)if c=="~"then local fst,second=pop()

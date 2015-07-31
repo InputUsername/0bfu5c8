@@ -11,7 +11,7 @@ o()u(v)u(v)elseif"!"==c then o()elseif c:byte(
 then n=1 i=i+1 local v=""while true do local c
 =string.sub(p,i,i)if c=="("then n=n+1 elseif c
 ==")"then n=n-1 end if n==0 then break end v=v
-..c i=i+1 end u(v)elseif c=="a"then	local v=o(
+..c i=i+1 end u(v)elseif c=="a"then local v=o(
 )u("("..v..")")elseif c=="^"then local v=o()p=
 p:sub(1,i)..v..p:sub(i+1)elseif c=="S"then v=o
 ()io.write(v)end ip=ip+1 end end a={...}if#a<1
